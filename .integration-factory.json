@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "c9a434c344ecfe4aac5bb3284984ad4fbe914f91604d0b086c70f61bab271a7d",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.agentql.com/openapi.json"
+  ],
+  "id": "agentql-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AgentQL MCP setup and connection checker",
+  "description": "Generate AgentQL MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agentql",
+  "appName": "AgentQL",
+  "providerDocs": "https://api.agentql.com/openapi.json",
+  "providerWebsite": "https://www.agentql.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.agentql.com/rest-api/api-reference",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-agentql-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
